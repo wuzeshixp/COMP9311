@@ -1,0 +1,17 @@
+#submit assignment from your PC
+
+1: open "CMD"
+2: 'cd' to the directory which have your assignment
+3；
+    windows
+    'pscp YOUR_ASSIGNMENT YOUR_ID@login.cse.unsw.edu.au:/YOUR_PWD'
+    #eg 'pscp ass1q1.pdf z12345678@login.cse.unsw.edu.au:/import/kamen/3/z12345678'
+   
+   mac 
+    'scp -P 22 -r prolog_search z5102175@login.cse.unsw.edu.au:/import/kamen/3/z5102175/'
+
+4: close "CMD" 
+5: 1）open putty if your PC system is windows
+   2）
+6: after login, you can find the assignment in the directory by using 'ls'
+7:'give cs9311 ass1q1 ass1q1.pdf'
