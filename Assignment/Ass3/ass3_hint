@@ -1,0 +1,24 @@
+Q1:
+
+metric space
+https://wenku.baidu.com/view/b090f8f90242a8956bece4bb.html?from=search
+
+
+Q2:
+九交模型 变 四交模型
+http://www.gitta.info/SpatialQueries/en/html/TopoBasedOps_learningObject1.html
+
+Q3：
+GIS语句
+http://blog.csdn.net/chaiqi/article/details/23099407/
+http://blog.csdn.net/chaiqi/article/details/23086445
+https://dev.mysql.com/doc/refman/5.7/en/spatial-datatypes.html
+
+在SQL语句中，用以下的方式可以使用WKT格式定义几何对象：
+           POINT(0 0) ——点
+           LINESTRING(0 0,1 1,1 2) ——线
+           POLYGON((0 0,4 0,4 4,0 4,0 0),(1 1, 2 1, 2 2, 1 2,1 1)) ——面
+           MULTIPOINT(0 0,1 2) ——多点
+           MULTILINESTRING((0 0,1 1,1 2),(2 3,3 2,5 4)) ——多线
+           MULTIPOLYGON(((0 0,4 0,4 4,0 4,0 0),(1 1,2 1,2 2,1 2,1 1)), ((-1 -1,-1 -2,-2 -2,-2 -1,-1 -1))) ——多面
+           GEOMETRYCOLLECTION(POINT(2 3),LINESTRING((2 3,3 4))) ——几何集合
